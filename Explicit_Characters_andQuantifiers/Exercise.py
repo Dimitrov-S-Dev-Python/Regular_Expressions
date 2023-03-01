@@ -1,17 +1,17 @@
-# Write your regular expressions within the // delimiters. Example: /a+/
+# Write your regular expressions inside the raw string, for example: r'a+'
 
-# Exercise 1: Match the string yeehaw with 2 or more es after the y
+# Exercise 1: Match the string yeehaw with 2 or more es after the y,
 # and a single optional exclamation point (!) at the end
-# const yeehawRegex = ye+haw!
+yeehaw_regex = r'yee+haw!?'
 
 # Exercise 2: Match the word “hi”, followed by two or more s’s
 # what's the most readable way to write this?
-# const hissRegex = hiss+
+hiss_regex = r'hiss+'
 
 # Exercise 3: Match the word “Yay” with three, four,
 # five or six exclamation points at the end
-# const yayRegex = ;
+yay_regex = r'Yay!{3,6}'
 
 # Exercise 4: Match “Call me maybe” with any number of ?s
 # at the end (including zero)
-# const callRegex = Call me maybes*
+call_regex = r'Call me maybe\?*'
