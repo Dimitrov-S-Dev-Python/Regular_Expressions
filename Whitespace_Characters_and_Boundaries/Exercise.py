@@ -18,8 +18,8 @@ two_tabs_regex = r'\t.*\t'
 # Exercise 12: Match strings that start with at least
 # three digits from 0 to 5 (inclusive).
 # Contents of the string are unimportant.
-start_with_three_digits_regex = r''
+start_with_three_digits_regex = r'^[0-5]{3,}'
 
 # Match entire strings that are six characters or longer and
 # don't contain the letter `E` (capital or lowercase)
-strings_without_e_regex = r''
+strings_without_e_regex = r'^[^Ee]{6,}$'
