@@ -35,7 +35,7 @@ trailing_whitespace_regex = r'\s+$'
 # That is, one word before and after "the" (without quotes).
 # Don't match any non-word characters before or after the matched
 # string.
-blank_the_blank_regex = r''
+blank_the_blank_regex = r'\w+ the \w+'
 
 # Exercise 18: Make a simplified email address matcher with these rules:
 # - One or more word or period (.) characters before the @
@@ -44,4 +44,4 @@ blank_the_blank_regex = r''
 #   surrounding characters
 #
 # Interested in unsimplified? See http://emailregex.com/
-email_regex = r''
+email_regex = r'^[\w\.]+@[\w\.]+\.[\w]+$'
