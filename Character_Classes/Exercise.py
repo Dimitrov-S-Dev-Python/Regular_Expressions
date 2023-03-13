@@ -3,7 +3,7 @@
 # Exercise 14: Match two or more o’s, but only if they’re in the
 # middle of a word.
 # Do not include any characters other than the o’s in the match
-middle_oo_regex = r''
+middle_oo_regex = r'\Bo{2,}\B'
 
 # Exercise 15: Match list item strings that start with one or more digits
 # followed by a ) -- that is, a closed parenthesis
@@ -24,7 +24,7 @@ middle_oo_regex = r''
 #
 # a) You don't talk about fight club
 #    should NOT match
-list_item_regex = r''
+list_item_regex = r'^\d+\).*$'
 
 # Exercise 16: Match any whitespace at the end of a string
 # Do not include characters other than the whitespace in the match
