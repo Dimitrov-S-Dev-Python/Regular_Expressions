@@ -29,7 +29,7 @@ list_item_regex = r'^\d+\).*$'
 # Exercise 16: Match any whitespace at the end of a string
 # Do not include characters other than the whitespace in the match
 # Do not match strings that don’t have whitespace at the end
-trailing_whitespace_regex = r''
+trailing_whitespace_regex = r'\s+$'
 
 # Exercise 17: Find any phrase that matches ____ the ____
 # That is, one word before and after "the" (without quotes).
